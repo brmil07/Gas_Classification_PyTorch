@@ -1,3 +1,4 @@
+### Importing the libraries ###
 import os
 import math
 import pandas as pd
@@ -12,6 +13,7 @@ import torch.optim as optim
 from sklearn.model_selection import train_test_split
 from torch.utils.data import TensorDataset, DataLoader
 
+### Initialize variables
 DIR_NAME = "WTD_upload"
 bad_files = set(["201105240921_board_setPoint_600V_fan_setPoint_100_mfc_setPoint_CO_4000ppm_p1"])
 chemicals_list = ["Acetaldehyde_500", "Acetone_2500", "Ammonia_10000", "Benzene_200", 
